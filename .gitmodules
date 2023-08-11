@@ -1,0 +1,9 @@
+[submodule "catkin_simple"]
+	path = catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "vrpn_catkin"]
+	path = vrpn_catkin
+	url = https://github.com/ethz-asl/vrpn_catkin.git
+[submodule "vrpn_client_ros"]
+	path = vrpn_client_ros
+	url = https://github.com/Murphy41/vrpn_client_ros.git
