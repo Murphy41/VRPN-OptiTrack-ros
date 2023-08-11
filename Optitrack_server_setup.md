@@ -9,5 +9,4 @@
 
 ## VRPN server configure in Motive
 Go to "View -> Data Streaming". Scroll down and find VRPN, tick on "Broadcast Frame Data", then the data should be streaming. <br>
-## Note
-Currently only rigid body data is streamed, make sure rigid bodies are created. 
+**Note that Currently only rigid body data is streamed, make sure rigid bodies are created. **
