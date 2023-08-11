@@ -23,11 +23,11 @@ In the `src` folder in your workspace run the following command:
 
 Pleaes note that this repo contains submodules and you need to use `--recurse-submodules` to clone them all.
 
-Then, navigate back to the workspace root path to build it. This step is similar to all other ros packages. In this step, a known bug that a file is missing will interrupt the catkin_make process. To resolve it, you can do `catkin_make` twice, as the first make process could generate the missing file automatically. However, to avoid this doggy process, it is suggested to use `catkin build` rather than `catkin_make`, and this more intellegent catkin tool could handle the build order in the process. To install `catkin build` or other catkin tools, please check their [tutorials](https://catkin-tools.readthedocs.io/en/latest/installing.html).
+Then, navigate back to the workspace root path to build it. This step is similar to all other ros packages. In this step, a known bug that a file is missing will interrupt the catkin_make process. To resolve it, you can do `catkin_make` twice, as the first make process could generate the missing file automatically. However, to avoid this doggy process, it is suggested to use `catkin build` rather than `catkin_make`, and this more intellegent catkin tool could handle the build priority in the process. To install `catkin build` or other catkin tools, please check their [tutorials](https://catkin-tools.readthedocs.io/en/latest/installing.html).
 
 ## Configuration
 
-A [sample launch file](vrpn_client_ros/launch/sample.launch) is given in VRPN-OptiTrack-ros/vrpn_client_ros/launch folder. As shown in the image, the rosparam in it can be configured based on your needs. In the common case, to run this sample, just check the server ip address and port in the launch file. You can either change the default ip in the launch file directly or state it when use roslaunch (as shown in the following [section](#test)).
+A [sample launch file]([vrpn_client_ros/launch/sample.launch](https://github.com/Murphy41/vrpn_client_ros/blob/noetic-devel/launch/sample.launch)) is given in VRPN-OptiTrack-ros/vrpn_client_ros/launch folder. As shown in the image, the rosparam in it can be configured based on your needs. In the common case, to run this sample, just check the server ip address and port in the launch file. You can either change the default ip in the launch file directly or state it when use roslaunch (as shown in the following [section](#test)).
 
 ![](images/launch_preview.png)
 
