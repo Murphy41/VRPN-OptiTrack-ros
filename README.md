@@ -1,7 +1,7 @@
 # vrpn-client-ros
 A guide for setting up the VRPN client in ROS for receiving data from the Optitrack.
 
-# Optitrack Server Setup
+# OptiTrack Server Setup
 Please refer to [OptiTrack Motive VRPN Streaming Setup and Configure Guidance](Optitrack_server_setup.md).
 
 # VRPN ROS Client Setup
