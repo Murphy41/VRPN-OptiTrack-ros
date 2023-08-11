@@ -2,7 +2,7 @@
 A guide for setting up the VRPN client in ROS for receiving data from the Optitrack.
 
 # Optitrack Server Setup
-Please refer to [OptiTrack Motive VRPN Streaming Setup and Configure Guidance](https://github.com/Murphy41/VRPN-OptiTrack-ros/blob/main/Optitrack_server_setup.md).
+Please refer to [OptiTrack Motive VRPN Streaming Setup and Configure Guidance](Optitrack_server_setup.md).
 
 # VRPN ROS Client Setup
 The Virtual-Reality Peripheral Network (VRPN) is a set of classes within a library and a set of servers that are designed to implement a network-transparent interface between application programs and the set of physical devices (tracker, etc.) used in a virtual-reality (VR) system. In this repo, we'll only focus on the Optitrack device.
@@ -27,7 +27,7 @@ Then, navigate back to the workspace root path to build it. This step is similar
 
 ## Configuration
 
-A [sample launch file]([vrpn_client_ros/launch/sample.launch](https://github.com/Murphy41/vrpn_client_ros/blob/noetic-devel/launch/sample.launch)) is given in VRPN-OptiTrack-ros/vrpn_client_ros/launch folder. As shown in the image, the rosparam in it can be configured based on your needs. In the common case, to run this sample, just check the server ip address and port in the launch file. You can either change the default ip in the launch file directly or state it when use roslaunch (as shown in the following [section](#test)).
+A [sample launch file](https://github.com/Murphy41/vrpn_client_ros/blob/noetic-devel/launch/sample.launch) is given in VRPN-OptiTrack-ros/vrpn_client_ros/launch folder. As shown in the image, the rosparam in it can be configured based on your needs. In the common case, to run this sample, just check the server ip address and port in the launch file. You can either change the default ip in the launch file directly or state it when use roslaunch (as shown in the following [section](#test)).
 
 ![](images/launch_preview.png)
 
