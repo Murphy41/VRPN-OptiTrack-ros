@@ -1,8 +1,7 @@
 # vrpn-client-ros
-A guide for setting up the VRPN client in ROS for receiving data from the Optitrack.
+A guide for setting up the VRPN client in ROS for receiving data from the Optitrack. This repo contains the essential ROS packages to receive the data from OptiTrack Motive through VRPN protocol. For the OptiTrack Server setup, please refer to [OptiTrack Motive VRPN Streaming Setup and Configure Guidance](Optitrack_server_setup.md).
 
-# OptiTrack Server Setup
-Please refer to [OptiTrack Motive VRPN Streaming Setup and Configure Guidance](Optitrack_server_setup.md).
+**Please note that this setup has been tested only on private networks, such as those typically used in homes, and not on institutional networks like Eduroam or UniWireless, which have distinct login credentials, firewall settings, and administrative controls. If you encounter issues, it's recommended to first connect through a truly private network.**
 
 # VRPN ROS Client Setup
 The Virtual-Reality Peripheral Network (VRPN) is a set of classes within a library and a set of servers that are designed to implement a network-transparent interface between application programs and the set of physical devices (tracker, etc.) used in a virtual-reality (VR) system. In this repo, we'll only focus on the Optitrack device.
