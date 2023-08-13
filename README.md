@@ -34,6 +34,7 @@ A [sample launch file](https://github.com/Murphy41/vrpn_client_ros/blob/noetic-d
 
 To test the sample launch file, simply use the following code, and replace the following ip address with the ip address of your OptiTrack server.
 
+    source devel/setup.bash
     roslaunch vrpn_client_ros sample.launch server:=128.130.39.61 & rosrun rviz rviz
 
 The running screenshot will be put here later.
