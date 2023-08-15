@@ -1,5 +1,5 @@
 # Server setup guidance
-OptiTrack Motive VRPN Streaming Setup and Configure Guidance.
+OptiTrack Motive VRPN Streaming Setup and Configure Guidance for Motive 1.7.5 (which is the version that is compatible with our hardware key and license).
 
 ## Motive installation
 1. Go to the [Optitrack website](https://optitrack.com/support/downloads/motive.html) and find Motive 1.7.5 by clicking on the place shown in the screenshot below, and install it.
@@ -19,4 +19,4 @@ Go to `View -> Data Streaming`. Scroll down and find `VRPN Streaming Engine`, ti
 
 ![streaming](images/streaming.png)
 
-Note that currently only `rigid body` data is streamed, make sure rigid bodies are created. 
+Note that currently only `rigid body` data is streamed, make sure rigid bodies are created. Broadcasting the position information of multiple rigid bodies to multiple clents have tested without issue.
